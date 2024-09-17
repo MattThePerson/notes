@@ -20,11 +20,11 @@ x* 14.00 Vamos
 * 20.00 Koripallo
 x- DM pre-ass
 x- DM exercise 2
-- NLP lab 1 submit
 
 Tue:
-- 10.00 NLP lecture
+x- 10.00 NLP lecture
 - DM review lecture
+- NLP lab 1 submit
 - 
 
 Wed:

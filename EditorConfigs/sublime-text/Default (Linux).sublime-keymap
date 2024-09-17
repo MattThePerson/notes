@@ -1,13 +1,23 @@
 [
 	{
-		"keys" : ["alt+home"],
+		"keys" : ["alt+d"],
 		"command" : "move_to", 
-		"args": {"to": "eol", "extend": false}
+		"args": {"to": "bol", "extend": false}
 	},
 	{
 		"keys" : ["alt+f"],
 		"command" : "move_to", 
 		"args": {"to": "eol", "extend": false}
+	},
+	{
+		"keys" : ["alt+shift+f"],
+		"command" : "move_to", 
+		"args": {"to": "eol", "extend": true}
+	},
+	{
+		"keys" : ["alt+shift+d"],
+		"command" : "move_to", 
+		"args": {"to": "bol", "extend": true}
 	},
 	{ "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
 	{ "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
