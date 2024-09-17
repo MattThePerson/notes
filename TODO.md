@@ -6,7 +6,6 @@ UPCOMING EVENTS:
 - 11.10. (FRI) klo 13:30 YTHS Lyhytterapia
 - 17.10. (THUR) klo 10:20 YTHS etätapaaminen (täytä ensin lomake)
 
-
 LONGTERM TODO:
 - Kotivakuutus (IF tai LähiTapiola)
 - Osta pyörä vittu

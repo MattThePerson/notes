@@ -43,7 +43,7 @@ contexts:
 
   ## CUSTOM
   date:
-    - match: '\d{2}\.\d{2}\.'
+    - match: '\d{1,4}\.\d{1,2}\.\d{0,4}'
       scope: custom.date
 
   time:

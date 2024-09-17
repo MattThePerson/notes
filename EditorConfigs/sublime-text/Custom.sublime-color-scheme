@@ -1,10 +1,11 @@
 // Documentation at https://www.sublimetext.com/docs/color_schemes.html
 {
-	"variables":
-	{
+	"variables": {
 	},
-	"globals":
-	{
+	"globals": {
+        "background": "#1D1F21",  // Match Mariana theme's background
+        "foreground": "#EEE",
+        // "caret": "#528BFF"
 	},
 	"rules":
 	[
