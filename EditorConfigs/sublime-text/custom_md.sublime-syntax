@@ -89,14 +89,8 @@ contexts:
       scope: custom.comment
 
   keywords:
-    # Keywords are if, else for and while.
-    # Note that blackslashes don't need to be escaped within single quoted
-    # strings in YAML. When using single quoted strings, only single quotes
-    # need to be escaped: this is done by using two single quotes next to each
-    # other.
-    #
-    - match: '\b(Lecture|lecture|L)\b'
+    - match: '\b(Lecture|lecture|L|seminar|Seminar)\b'
       scope: custom.keywords.lecture
-    - match: '\b(Lab|lab|Practical|Exercise|exercise|ex)\b'
+    - match: '\b(Lab|lab|Practical|practical|Prac|prac|Exercise|exercise|ex)\b'
       scope: custom.keywords.exercise
 

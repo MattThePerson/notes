@@ -34,7 +34,7 @@ Wed:
 
 Thur:
 * 18.45 Lentopallo
-- 12.00 NLP seminaar
+- 12.00 NLP seminar
 - 
 
 Fri:
@@ -42,9 +42,6 @@ Fri:
 
 
 # LAST WEEK
-
-Mon:
-- Nothing
 
 Tue:
 - DM lecture 1 videos
