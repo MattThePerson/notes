@@ -1,0 +1,24 @@
+[
+	{
+		"keys" : ["alt+home"],
+		"command" : "move_to", 
+		"args": {"to": "eol", "extend": false}
+	},
+	{
+		"keys" : ["alt+f"],
+		"command" : "move_to", 
+		"args": {"to": "eol", "extend": false}
+	},
+	{ "keys": ["alt+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+	{ "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["alt+j"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": [ "ctrl+shift+j" ], "command": "pretty_json" },
+	{
+        "keys": ["ctrl+shift+o"],
+        "command": "terminus_open",
+        "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    }
+]

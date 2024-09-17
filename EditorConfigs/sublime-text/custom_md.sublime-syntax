@@ -1,0 +1,102 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+file_extensions:
+  - ec
+scope: source.example-c
+
+contexts:
+  # The prototype context is prepended to all contexts but those setting
+  # meta_include_prototype: false.
+  prototype:
+    - include: comments
+
+  main:
+    # The main context is the initial starting point of our syntax.
+    # Include other contexts from here (or specify them directly).
+    #- include: keywords
+    - include: numbers
+    - include: strings
+    - include: done
+    - include: date
+    - include: subheadings
+    - include: time
+    - include: li-markings
+    - include: subsection-upper
+    - include: subsection
+    - include: keywords
+
+  subsection-upper:
+    - match: '^[A-Z ]+:$'
+      scope: custom.subsection-upper
+
+  subsection:
+    - match: '.*:$'
+      scope: custom.subsection
+
+  ## CUSTOM
+  li-markings:
+    - match: '^-'
+      scope: custom.hyphen-li
+    - match: '^\*'
+      scope: custom.star-li
+
+  ## CUSTOM
+  date:
+    - match: '\d{2}\.\d{2}\.'
+      scope: custom.date
+
+  time:
+    - match: '\d+\:\d+'
+      scope: custom.time
+    - match: '\d+\.\d+'
+      scope: custom.time
+    - match: '\b(klo)\b'
+      scope: custom.time
+
+  subheadings:
+    - match: '^##.*'
+      #scope: constant.numeric.example-c
+      scope: custom.subheading-2
+    - match: '^#.*'
+      #scope: constant.numeric.example-c
+      scope: custom.subheading-1
+
+  done:
+    - match: '^x.*'
+      scope: custom.done
+
+
+  ## EXISTED
+  strings:
+    # Strings begin and end with quotes, and use backslashes as an escape
+    # character.
+    - match: '"'
+      scope: punctuation.definition.string.begin.example-c
+      push: inside_string
+
+  inside_string:
+    - meta_include_prototype: false
+    - meta_scope: string.quoted.double.example-c
+    - match: '\.'
+      scope: constant.character.escape.example-c
+    - match: '"'
+      scope: punctuation.definition.string.end.example-c
+      pop: true
+
+  comments:
+    - match: '//.*'
+      scope: custom.comment
+
+  keywords:
+    # Keywords are if, else for and while.
+    # Note that blackslashes don't need to be escaped within single quoted
+    # strings in YAML. When using single quoted strings, only single quotes
+    # need to be escaped: this is done by using two single quotes next to each
+    # other.
+    #
+    - match: '\b(Lecture|lecture|L)\b'
+      scope: custom.keywords.lecture
+    - match: '\b(Lab|lab|Practical|Exercise|exercise|ex)\b'
+      scope: custom.keywords.exercise
+

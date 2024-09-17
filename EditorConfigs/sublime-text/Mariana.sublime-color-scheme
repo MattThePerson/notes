@@ -1,0 +1,70 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables":
+	{
+	},
+	"globals":
+	{
+	},
+	"rules":
+	[
+		{
+            "scope": "custom.date",
+            "foreground": "#D65",
+            "font_style": "bold"
+        },
+        {
+            "scope": "custom.time",
+            "foreground": "#D6C",
+            "font_style": "bold"
+        },
+        {
+            "scope": "custom.subheading-1",
+            "foreground": "#FD0",
+            "font_style": "bold"
+        },
+        {
+            "scope": "custom.subheading-2",
+            "foreground": "#A90",
+            "font_style": "bold"
+        },
+        {
+            "scope": "custom.done",
+            "foreground": "#987",
+            "font_style": "italic"
+        },
+        {
+            "scope": "custom.comment",
+            "foreground": "#799",
+            "font_style": "italic"
+        },
+        {
+            "scope": "custom.hyphen-li",
+            "foreground": "#68D",
+            "font_style": "bold"
+        },
+        {
+            "scope": "custom.star-li",
+            "foreground": "#3B4",
+            "font_style": "bold"
+        },
+        {
+            "scope": "custom.subsection",
+            "foreground": "#68D"
+        },
+        {
+        	"scope": "custom.subsection-upper",
+        	"foreground": "#D68"
+        },
+        {
+        	"scope": "custom.keywords.lecture",
+        	"foreground": "#AB6",
+        	"font_style": "bold"
+        },
+        {
+        	"scope": "custom.keywords.exercise",
+        	"foreground": "#4AA",
+        	"font_style": "bold"
+        }
+	]
+}
