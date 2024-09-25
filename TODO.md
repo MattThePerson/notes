@@ -5,12 +5,15 @@ UPCOMING EVENTS:
 - 08.10. (TUE) klo 12:30 Vamos
 - 11.10. (FRI) klo 13:30 YTHS Lyhytterapia
 - 17.10. (THUR) klo 10:20 YTHS etätapaaminen (täytä ensin lomake)
+- 01.10. NLP Class test
+
 
 LONGTERM TODO:
 - Kotivakuutus (IF tai LähiTapiola)
 - Osta pyörä vittu
 - Pankkikortti avaa
 x- Asumistuki
+
 
 
 # THIS WEEK
@@ -24,11 +27,11 @@ x- DM exercise 2
 Tue:
 x- 10.00 NLP lecture
 - DM review lecture
-- NLP lab 1 submit
+x- NLP lab 1 submit
 - 
 
 Wed:
-* 20.00 Lentopallo
+* 20.00 Koripallo
 - 14.00 NLP lecture
 - 
 
@@ -39,6 +42,25 @@ Thur:
 
 Fri:
 - DM exercise 3
+
+
+# WEEK TEMPLATE
+
+Mon:
+- 
+
+Tue:
+- 10.00 NLP lecture
+
+Wed:
+- 14.00 NLP lecture
+
+Thur:
+- 
+
+Fri:
+- 
+
 
 
 # LAST WEEK
