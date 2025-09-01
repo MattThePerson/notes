@@ -1,4 +1,8 @@
 {
+
+    // paste image
+    "pasteImage.path": "images",
+    
     "java.jdt.ls.java.home": "C:\\Program Files (x86)\\Java\\jdk-21.0.1",
     "java.help.firstView": "gettingStarted",
     "editor.suggestSelection": "first",
@@ -115,7 +119,7 @@
     "security.promptForLocalFileProtocolHandling": false,
 
     // ctrl+tab behavious
-    "workbench.editor.showTabs": true,
+    "workbench.editor.showTabs": "multiple",
     "workbench.editor.openTabPreview": false,
     "workbench.editor.openTabPreviewWithEditor": false
 

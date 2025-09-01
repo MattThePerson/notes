@@ -1,4 +1,4 @@
-# setup
+# todo
 
 [[home]]
 

@@ -1,3 +1,6 @@
+# notes
+
+[[home]]
 
 NOTES:
 - omaväylävalmennus (nepsyvalmennus)
@@ -16,7 +19,8 @@ TODO:
 	- fill in 
     - paste images
     - 
-- maksa laskut
+- [ ] maksa laskut
+- [ ] testing
 - whatsapp reply
 - 
 
@@ -26,7 +30,7 @@ TODO:
 MA:
 - 
 TI:
-- [] hello
+- [ ] hello
 
 
 
