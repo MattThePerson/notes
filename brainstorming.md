@@ -10,6 +10,6 @@
     - notes
     - todo lists
 - calendar
-
+- canban boards
 
 

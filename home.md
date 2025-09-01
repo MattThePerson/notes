@@ -2,11 +2,12 @@
 
 ## Table of Contents:
 
-General: 
+General:
 
 [[setup]]
 [[todo]]
 [[brainstorming]]
+[[calendar]]
 
 Specific:
 
