@@ -4,12 +4,14 @@
 
 ## Monday: Evening in Cella
 
-- kela: hae toimeentulotukea
+- tools: get working notes/calendar/todo system
 - yths: nepsy lähetä viesti
-- koulu: ilmoittaudu uudelle kurssille
-- lasku: puhelin
-- lasku: 
-- 
+- book: haircut
+- kela: hae toimeentulotukea
+- make calendar
+<!-- - koulu: ilmoittaudu uudelle kurssille -->
+<!-- - lasku: puhelin -->
+<!-- - lasku: fortum -->
 
 
 

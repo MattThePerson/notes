@@ -10,7 +10,7 @@ mon:
 - 
 
 tue:
-- hello
+- 
 
 wed:
 - 
