@@ -188,7 +188,7 @@
         "key": "alt+enter",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus"
-    }
+    },
     
 
     // - OTHER STUFF -----------------------------------------------------------
@@ -459,5 +459,13 @@
         "key": "ctrl+alt+k",
         "command": "-code-runner.runCustomCommand"
     },
+ 
+    // ctrl+ö toggle terminal view
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+    },
+    
     
 ]
