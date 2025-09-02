@@ -1,18 +1,19 @@
-# home
+# HOME
+
+![alt text](image-1.png)
 
 ## Table of Contents:
 
-General:
+### General:
 
-[[setup]]
-[[todo]]
-[[brainstorming]]
-[[calendar]]
+- [[setup]]
+- [[todo]]
+- [[brainstorming]]
+- [[calendar]]
 
-Specific:
+### Specific:
 
-[[uni/_page]]
-[[notes]]
-[[todo_lists/_page]]
-
+- University:     [[uni/main]]
+- Notes:          [[notes/notes]]
+- ToDo Lists:     [[todo_lists/_page]]
 
